@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+
+<BorderPane fx:id="rootLayout" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.integratedapplication.MainController">
+    <top>
+        <VBox alignment="CENTER" spacing="10">
+            <Label text="Select a Program" style="-fx-font-size: 18; -fx-font-weight: bold;"/>
+            <ComboBox fx:id="appSelector" promptText="Choose a program"/>
+        </VBox>
+    </top>
+    <center>
+
+    </center>
+</BorderPane>
